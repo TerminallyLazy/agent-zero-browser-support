@@ -1,9 +1,12 @@
 # Install and connect once
 
-The Chrome Web Store item is still a draft. The supplied **unpacked ZIP** includes
+The Chrome Web Store item is still a draft. [Download the **unpacked ZIP**](https://github.com/agent0ai/agent-zero-browser-extension/releases/download/extension-v0.1.1-prestore/agent-zero-browser-0.1.1-unpacked.zip), which includes
 an offline **START-HERE.html** guide and a ready-to-load extension folder. No
 Node, Rust, terminal, or source build is needed to load it. The separate
 **store-candidate ZIP** is only for the developer dashboard.
+Do not use GitHub's automatic Source code ZIP for installation. Your Agent Zero
+build must include [Core PR #1877](https://github.com/agent0ai/agent-zero/pull/1877);
+the extension cannot add missing server endpoints to an older Docker image.
 
 | Chrome computer | Extension | Native companion |
 | --- | --- | --- |
