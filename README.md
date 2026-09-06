@@ -6,11 +6,14 @@ and is not an OpenAI product or an official Chrome extension from Google.
 
 ## Availability
 
-The signed and notarized **macOS companion 2.12.0 (r2)** is
+The signed and notarized **macOS companion 2.12.3** is
 [available publicly](https://github.com/TerminallyLazy/agent-zero-browser-releases).
 Its native installation and installed-state checks passed on Apple Silicon.
-The Chrome Web Store item remains a draft; full live production browser
-acceptance is still pending. Windows and Linux packages are not yet released.
+The Chrome Web Store item remains a draft. [Download the guided extension ZIP](https://github.com/agent0ai/agent-zero-browser-extension/releases/download/extension-v0.1.1-prestore/agent-zero-browser-0.1.1-unpacked.zip)
+and extract it, then open START-HERE.html. Windows and Linux native packages
+are not yet released. The required [Core integration](https://github.com/agent0ai/agent-zero/pull/1877)
+and [CLI/native integration](https://github.com/agent0ai/a0-connector/pull/26)
+are still awaiting maintainer merge; an older Docker image may not contain them.
 Do not install a similarly named extension assuming it belongs to this project.
 
 The production extension has its own identity and pairing. Older packages
@@ -38,5 +41,6 @@ pairing code, API key, cookie, private URL, chat transcript, screenshot containi
 private information, or unredacted logs. For a sensitive report, ask the
 maintainer for a private channel before sending details.
 
-This repository contains support documentation only. It does not redistribute
-the private extension source, companion credentials, or Agent Zero user data.
+This repository contains support documentation only. The
+[extension source repository](https://github.com/agent0ai/agent-zero-browser-extension)
+is public; neither repository includes companion credentials or Agent Zero user data.
