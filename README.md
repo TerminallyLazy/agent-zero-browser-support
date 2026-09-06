@@ -6,15 +6,18 @@ and is not an OpenAI product or an official Chrome extension from Google.
 
 ## Availability
 
-The current release is a **limited development preview**, not a Chrome Web Store
-production release. The private preview download requires repository access.
-There is no public production installer or store listing yet. Do not install a
-similarly named extension assuming it belongs to this project.
+The signed and notarized **macOS companion 2.12.0 (r2)** is
+[available publicly](https://github.com/TerminallyLazy/agent-zero-browser-releases).
+Its native installation and installed-state checks passed on Apple Silicon.
+The Chrome Web Store item remains a draft; full live production browser
+acceptance is still pending. Windows and Linux packages are not yet released.
+Do not install a similarly named extension assuming it belongs to this project.
 
-The preview supports grouped, agent-owned tabs, page reading, navigation,
-scrolling, and a visible agent cursor. Extension chat, screenshots, clicking,
-typing, and file upload are not available in this preview. Production-candidate
-source is not evidence that those features are available in an installed build.
+The production extension has its own identity and pairing. Older packages
+marked Development remain a separate limited preview; they are not upgraded
+to production by changing their display text. Follow the setup guide for the
+channel you actually installed. Source and package checks do not establish
+that a particular browser session has been admitted for control.
 
 ## Start here
 
